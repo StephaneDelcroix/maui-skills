@@ -46,7 +46,8 @@
         "./skills/maui-speech-to-text",
         "./skills/maui-sqlite-database",
         "./skills/maui-theming",
-        "./skills/maui-unit-testing"
+        "./skills/maui-unit-testing",
+        "./skills/maui-xaml-authoring"
       ]
     }
   ]

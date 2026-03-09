@@ -1,6 +1,6 @@
 # .NET MAUI Skills
 
-A collection of 32 skills for .NET MAUI development, designed for use with GitHub Copilot CLI and Claude Code. Each skill provides focused, expert-level guidance on a specific area of .NET MAUI app development.
+A collection of 33 skills for .NET MAUI development, designed for use with GitHub Copilot CLI and Claude Code. Each skill provides focused, expert-level guidance on a specific area of .NET MAUI app development.
 
 Skills are loaded on-demand when your prompt matches the skill's topic, injecting detailed guidance, code examples, and platform-specific notes into the AI's context.
 
@@ -40,6 +40,7 @@ Skills are loaded on-demand when your prompt matches the skill's topic, injectin
 | [maui-sqlite-database](plugins/maui-skills/skills/maui-sqlite-database/) | Add SQLite local database storage to .NET MAUI apps using sqlite-net-pcl. Use this skill when implementing local data persistence, offline storage, CRUD operations, or database access in MAUI applications. Covers Constants, data models with ORM attributes, async database service with lazy init, DI registration, WAL mode, and file management. Works with any UI pattern (XAML/MVVM, C# Markup, MauiReactor). |
 | [maui-theming](plugins/maui-skills/skills/maui-theming/) | Guide for theming .NET MAUI apps—light/dark mode support, AppThemeBinding, dynamic resources, ResourceDictionary theme switching, and system theme detection. |
 | [maui-unit-testing](plugins/maui-skills/skills/maui-unit-testing/) | xUnit testing guidance for .NET MAUI apps — ViewModel testing, mocking MAUI services, test project setup, code coverage, and on-device test runners. |
+| [maui-xaml-authoring](plugins/maui-skills/skills/maui-xaml-authoring/) | Guardrails for writing correct .NET MAUI XAML. Prevents common AI-generated mistakes: wrong namespace URIs, missing x:DataType, bad bindings, incorrect OnPlatform syntax, Grid definition errors, obsolete controls, and resource/style misuse. Derived from ~305 XAML regression tests in the dotnet/maui repository. |
 
 ## Installation
 
